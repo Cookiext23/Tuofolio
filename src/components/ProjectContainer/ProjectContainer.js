@@ -4,7 +4,7 @@ import OpenInBrowserIcon from '@material-ui/icons/OpenInBrowser'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <div className='project projects-bg'>
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>

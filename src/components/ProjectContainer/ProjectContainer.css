@@ -4,6 +4,7 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  border-radius: 20px;
 }
 
 .project:hover {
@@ -12,6 +13,7 @@
 
 .project__description {
   margin-top: 1em;
+  color: var(--clr-fg);
 }
 
 .project__stack {
@@ -25,9 +27,14 @@
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  color: var(--clr-primary);
 }
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+
+.projects-bg {
+  background-color: #FFFFFF;
 }

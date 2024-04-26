@@ -1,16 +1,14 @@
 .app {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'IBM Plex Mono';
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
 
 .light {
-  --clr-bg: #cdd9c1;
-  --clr-bg-alt: #01847c;
-  --clr-fg: #333;
-  --clr-fg-alt: #444;
-  --clr-primary: #01847c;
+  --clr-bg: #F6F3EC;
+  --clr-primary: #07342F;
+  --clr-fg: #5b5a5a;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -72,13 +70,13 @@ main {
 }
 
 .link--nav {
-  color: var(--clr-fg);
-  text-transform: lowercase;
+  color: var(--clr-primary);
+  text-transform: capitalize;
   font-weight: 500;
 }
 
 .link--icon {
-  color: var(--clr-fg);
+  color: var(--clr-primary);
 }
 
 .btn {
@@ -88,7 +86,7 @@ main {
   font-weight: 500;
   font-size: 0.9rem;
   border-radius: 20px;
-  text-transform: lowercase;
+  text-transform: capitalize;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -124,7 +122,7 @@ main {
 
 .btn--plain {
   text-transform: initial;
-  background-color: var(--clr-bg-alt);
+  background-color: var(--clr-primary);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
 }
@@ -139,7 +137,7 @@ main {
 
 .btn--icon:hover,
 .btn--icon:focus {
-  color: var(--clr-primary);
+  color: var(--clr-bg);
 }
 
 .btn--icon:active {

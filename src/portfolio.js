@@ -29,8 +29,8 @@ const projects = [
     description:
       'Software Developer Portfolio Website built using React JS and Material-UI with a simple and clean design, showcasing my tech skills and work.',
     stack: ['React', 'HTML', 'CSS', 'Material-UI'],
-    sourceCode: 'https://github.com/Cookiext23/tuoxie-react-portfolio',
-    livePreview: 'https://cookiext23.github.io/tuoxie-react-portfolio/',
+    sourceCode: 'https://github.com/Cookiext23/tuofolio',
+    livePreview: 'https://cookiext23.github.io/tuofolio/',
   }
 ]
 

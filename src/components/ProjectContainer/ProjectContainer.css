@@ -15,6 +15,7 @@
   font-family: 'Courier New';
   margin-top: 1em;
   color: var(--prj-wd);
+  text-align: justify;
 }
 
 .project__stack {

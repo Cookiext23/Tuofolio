@@ -12,6 +12,7 @@
 }
 
 .project__description {
+  font-family: 'Courier New';
   margin-top: 1em;
   color: var(--prj-wd);
 }

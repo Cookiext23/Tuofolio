@@ -13,6 +13,7 @@
 }
 
 .about__desc {
+  font-family: 'Courier New';
   font-size: 1rem;
   max-width: 600px;
 }

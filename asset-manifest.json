@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tuofolio/static/css/main.1ec370d7.css",
+    "main.js": "/tuofolio/static/js/main.5b0f30e0.js",
+    "static/media/avatar.svg": "/tuofolio/static/media/avatar.5cacf96df88d3a38321955b695fe0321.svg",
+    "static/media/avatar_dark.svg": "/tuofolio/static/media/avatar_dark.1bd80e50fb99bda8476ded29451bb230.svg",
+    "index.html": "/tuofolio/index.html",
+    "main.1ec370d7.css.map": "/tuofolio/static/css/main.1ec370d7.css.map",
+    "main.5b0f30e0.js.map": "/tuofolio/static/js/main.5b0f30e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec370d7.css",
+    "static/js/main.5b0f30e0.js"
+  ]
+}

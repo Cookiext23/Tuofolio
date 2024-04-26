@@ -13,7 +13,7 @@
 
 .project__description {
   margin-top: 1em;
-  color: var(--clr-fg);
+  color: var(--prj-wd);
 }
 
 .project__stack {
@@ -27,14 +27,53 @@
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--clr-primary);
+  color: var(--prj-wd);
 }
 
-.project .link--icon {
+.project .prj-link--icon {
   margin-left: 0.5em;
 }
 
-
 .projects-bg {
-  background-color: #FFFFFF;
+  background-color: var(--prj-bg);
+}
+
+.project-title {
+  color: var(--prj-wd);
+}
+
+.prj-link {
+  color: var(--prj-wd);
+  padding: 0 0 0.3em 0;
+  position: relative;
+}
+
+.prj-link:hover {
+  color: var(--prj-wd);
+}
+
+.prj-link::before {
+  content: '';
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--prj-wd);
+  transition: width 0.2s ease-in;
+}
+
+.prj-link:hover::before,
+.prj-link:focus::before {
+  width: 100%;
+}
+
+.link--nav {
+  color: var(--clr-primary);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.prj-link--icon {
+  color: var(--prj-wd);
 }

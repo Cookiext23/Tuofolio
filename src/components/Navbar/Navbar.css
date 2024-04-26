@@ -13,7 +13,7 @@
 .nav__theme {
   margin-top: 0.4em;
   margin-left: 1.2em;
-  color: var(--clr-primary);
+  color: var(--abt-icon);
 }
 
 @media (max-width: 600px) {

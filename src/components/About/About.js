@@ -1,16 +1,21 @@
+import React, { useContext } from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { about } from '../../portfolio';
 import './About.css';
-import avatar from './avatar.svg'; 
+import { ThemeContext } from '../../contexts/theme';
+import avatar from './avatar.svg';
+import avatarDark from './avatar_dark.svg';
 
 const About = () => {
   const { name, role, description, social } = about;
+  const [{ themeName }] = useContext(ThemeContext);
+  const avatarSrc = themeName === 'dark' ? avatarDark : avatar;
 
   return (
     <div className='about-container'>
       <div className='about-avatar'>
-        <img src={avatar} alt='Avatar' className='avatar-img' />
+        <img src={avatarSrc} alt='Avatar' className='avatar-img' />
       </div>
 
       <div className='about-details'>

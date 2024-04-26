@@ -141,7 +141,7 @@ main {
 
 .btn--icon:hover,
 .btn--icon:focus {
-  color: var(--clr-bg);
+  color: var(--abt-icon);
 }
 
 .btn--icon:active {

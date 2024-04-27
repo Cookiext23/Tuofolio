@@ -4,9 +4,9 @@ Personal portfolio website built using React JS and Material-UI with a simple an
 
 ## Preview
 
-[![Imgur](https://imgur.com/3Bdblqd)](https://cookiext23.github.io/tuofolio/)
+[![Imgur](https://i.imgur.com/3Bdblqd.gif)](https://cookiext23.github.io/tuofolio/)
 
-[![Imgur](https://imgur.com/jNfaiaa)](https://cookiext23.github.io/tuofolio/)
+[![Imgur](https://i.imgur.com/jNfaiaa.gif)](https://cookiext23.github.io/tuofolio/)
 
 [Live Demo](https://cookiext23.github.io/tuofolio/)
 

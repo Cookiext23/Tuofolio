@@ -42,11 +42,13 @@
 .about-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .about-avatar {
   flex: 1;
   text-align: center;
+  margin-bottom: 1.5em;
 }
 
 .avatar-img {
@@ -57,6 +59,22 @@
 .about-details {
   flex: 1;
   padding: 0 20px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    justify-content: center;
+  }
+
+  .about-avatar {
+    display: none;
+  }
+
+  .about-details {
+    width: 100%;
+  }
 }
 
 .about-title {

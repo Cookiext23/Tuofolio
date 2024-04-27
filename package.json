@@ -1,8 +1,8 @@
 {
-  "name": "tuofolio",
-  "version": "0.1.0",
+  "name": "tuofolio_2.0",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://Cookiext23.github.io/tuoxie-react-portfolio",
+  "homepage": "https://Cookiext23.github.io/tuofolio",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "^8.3.0",

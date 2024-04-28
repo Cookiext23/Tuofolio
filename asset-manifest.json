@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/tuofolio/static/css/main.4b0a7b0d.css",
-    "main.js": "/tuofolio/static/js/main.5b0f30e0.js",
+    "main.css": "/tuofolio/static/css/main.def4f958.css",
+    "main.js": "/tuofolio/static/js/main.7edfe214.js",
     "static/media/avatar.svg": "/tuofolio/static/media/avatar.5cacf96df88d3a38321955b695fe0321.svg",
     "static/media/avatar_dark.svg": "/tuofolio/static/media/avatar_dark.1bd80e50fb99bda8476ded29451bb230.svg",
+    "static/media/avatarIcon.svg": "/tuofolio/static/media/avatarIcon.ab6db6b0e1b5100c323b1f1414f1cccd.svg",
+    "static/media/avatarIcon_dark.svg": "/tuofolio/static/media/avatarIcon_dark.d6c5603c72a1a24d958dddb29d7f4731.svg",
     "index.html": "/tuofolio/index.html",
-    "main.4b0a7b0d.css.map": "/tuofolio/static/css/main.4b0a7b0d.css.map",
-    "main.5b0f30e0.js.map": "/tuofolio/static/js/main.5b0f30e0.js.map"
+    "main.def4f958.css.map": "/tuofolio/static/css/main.def4f958.css.map",
+    "main.7edfe214.js.map": "/tuofolio/static/js/main.7edfe214.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b0a7b0d.css",
-    "static/js/main.5b0f30e0.js"
+    "static/css/main.def4f958.css",
+    "static/js/main.7edfe214.js"
   ]
 }
